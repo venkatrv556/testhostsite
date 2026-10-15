@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Free App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>My Free App</h1>
+    <p class="subtitle">HTML + CSS on Vercel, Node.js API, Neon database.</p>
+
+    <form id="user-form">
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter a name"
+        maxlength="100"
+        required
+      />
+      <button type="submit">Save</button>
+    </form>
+
+    <p id="message" class="message" aria-live="polite"></p>
+
+    <h2>Saved names</h2>
+    <ul id="user-list">
+      <li class="empty">Loading...</li>
+    </ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

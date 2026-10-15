@@ -1,0 +1,10 @@
+{
+  "name": "my-free-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Free stack starter: static frontend + Node.js API on Vercel + Neon Postgres",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0"
+  }
+}
